@@ -11,7 +11,7 @@ public Checking(int id, double balance) {
 	}
 
 
-public double withdraw(double amount) {
+public double withdraw2(double amount) {
 	
 if(amount<=overDraftLimit) {
 	setBalance(getBalance()-amount);
