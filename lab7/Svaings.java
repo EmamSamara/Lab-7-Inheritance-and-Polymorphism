@@ -7,7 +7,7 @@ public class Svaings extends Account{
 
 	}
 	
-	public double withdraw(double amount) {
+	public double withdraw1(double amount) {
 		if(amount<=balance) {
 			setBalance(getBalance()-amount);
 			return balance;
