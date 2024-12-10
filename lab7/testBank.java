@@ -8,11 +8,10 @@ public class testBank {
 		arr[0]=new Checking(1,500);
 		arr[1]=new Account(2,1500);
 		arr[2]=new Svaings(3,1200);
-
 		
 		arr[0].deposit(0);
 		System.out.println(arr[0].toString());
-		arr[0].withdraw(900);
+		((Checking) arr[0]).withdraw2(900);
 		System.out.println(arr[0].toString());
 		System.out.println();
 
@@ -26,9 +25,8 @@ public class testBank {
 		
 		arr[2].deposit(300);
 		System.out.println(arr[2].toString());
-		arr[2].withdraw(400);
+		((Svaings) arr[0]).withdraw1(900);
 		System.out.println(arr[2].toString());
-
 
 		
 	}
