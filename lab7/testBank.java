@@ -25,7 +25,7 @@ public class testBank {
 		
 		arr[2].deposit(300);
 		System.out.println(arr[2].toString());
-		((Svaings) arr[0]).withdraw1(900);
+		((Svaings) arr[2]).withdraw1(900);
 		System.out.println(arr[2].toString());
 
 		
